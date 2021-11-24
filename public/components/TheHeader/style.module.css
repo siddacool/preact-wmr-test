@@ -1,0 +1,13 @@
+.header {
+  background: pink;
+
+  @media (min-width: 900px) {
+    background: #76ceb8;
+  }
+}
+
+.nav {
+  @media (min-width: 900px) {
+    padding: 10px;
+  }
+}

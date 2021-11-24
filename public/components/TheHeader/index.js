@@ -1,5 +1,6 @@
-import { useLocation } from 'preact-iso';
 import styles from './style.module.css';
+import { useLocation } from 'preact-iso';
+import HeaderCounter from './HeaderCounter';
 
 export default function TheHeader() {
   const { url } = useLocation();
@@ -13,6 +14,7 @@ export default function TheHeader() {
         <a href="/about">About</a>
         <a href="/error">Error</a>
       </nav>
+      <HeaderCounter />
       <label>
         URL:
         <input

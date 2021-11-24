@@ -11,3 +11,8 @@
     padding: 10px;
   }
 }
+
+.HeaderCounter {
+  display: flex;
+  align-items: center;
+}
